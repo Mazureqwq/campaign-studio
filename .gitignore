@@ -1,0 +1,55 @@
+# Dependencies and package manager cache
+node_modules/
+.pnpm-store/
+.npm/
+.yarn/
+.pnp.*
+
+# Build output and test coverage
+dist/
+build/
+coverage/
+.vite/
+.cache/
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs and runtime files
+*.log
+logs/
+*.pid
+*.pid.lock
+
+# IDE and editor files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.iml
+*.suo
+*.user
+*.userossc
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary and generated files
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Local exports and browser drafts
+*.zip
+campaign-editor-draft.json
+campaign-page-schema.json

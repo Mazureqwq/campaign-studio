@@ -1,0 +1,14 @@
+{
+  "name": "campaign-lowcode-platform",
+  "private": true,
+  "packageManager": "pnpm@10.33.0",
+  "scripts": {
+    "dev": "pnpm --filter @campaign/console dev",
+    "dev:runtime": "pnpm --filter @campaign/page-runtime dev",
+    "build": "pnpm -r build",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}

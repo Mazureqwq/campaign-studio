@@ -1,0 +1,8 @@
+{
+  "name": "@campaign/component-runtime",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "dependencies": { "@campaign/schema": "workspace:*", "vue": "^3.5.13" },
+  "scripts": { "typecheck": "tsc --noEmit" }
+}

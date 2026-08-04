@@ -1,0 +1,8 @@
+{
+  "name": "@campaign/console",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "vite", "build": "vite build", "typecheck": "vue-tsc --noEmit" },
+  "dependencies": { "@campaign/component-runtime": "workspace:*", "@campaign/components": "workspace:*", "@campaign/schema": "workspace:*", "vue": "^3.5.13", "pinia": "^2.3.0" },
+  "devDependencies": { "@vitejs/plugin-vue": "^5.2.1", "@vue/compiler-sfc": "^3.5.13", "typescript": "^5.7.2", "vite": "^6.0.5", "vue-tsc": "^2.2.0" }
+}
