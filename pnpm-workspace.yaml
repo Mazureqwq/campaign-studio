@@ -1,3 +1,8 @@
 packages:
   - apps/*
   - packages/*
+
+# pnpm 10 需要显式放行依赖的安装脚本，否则 esbuild 不生成原生二进制、vite 无法启动
+onlyBuiltDependencies:
+  - esbuild
+  - vue-demi
